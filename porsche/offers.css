@@ -1,0 +1,50 @@
+.offers{
+    background-image: url("./images/subscribe-bg.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 56px;
+    padding-bottom: 32px; 
+}
+
+.offers-content{
+    max-width: 375px;
+}
+
+.offers-title{
+    text-align: center;
+}
+
+.offers-car{
+    background-image: url("./images/offers\ car.png");
+    width: 400px;
+    height: 179.55px;
+    background-size: cover;
+}
+
+.offers-button{
+    height: 49px;
+    width: 167px;
+    border-radius: 4px;
+}
+
+@media(min-width:890px){
+    .offers{
+        padding-top: 72px;
+        padding-bottom: 56px;
+        background-position: center;
+    }
+    
+    .offers-title{
+        text-align: left;
+    }
+
+    .offers-car{
+        width: 450px;
+        height: 202px;
+    }
+
+    .offers-button{
+        width: 174px;
+        height: 50px;
+    }
+}

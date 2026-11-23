@@ -1,0 +1,58 @@
+.features{
+    padding-top: 56px;
+    background-image: url("./images/Map\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 48px;
+}
+
+.CAR3{
+    background-image: url("./images/featured-car.png");
+    height: 346.89px;
+    width: 150px;
+    background-size: cover;
+    margin-top: 64px;
+    position: relative;
+}
+
+.features-inf{
+    background: #FFFFFF1A;
+    backdrop-filter: blur(16px);
+    height: 84px;
+    width: 111px;
+    border-radius: 20px;
+    position: absolute;
+    padding-top: 12px;
+}
+
+.inf1{
+    top: 63px;
+    left: -80px;
+}
+
+.inf2{
+    top: 131px;
+    left: 180px;
+}
+
+.inf3{
+    top: 318px;
+    left: -80px;
+}
+
+
+@media(min-width:500px){
+    .features{
+        padding-top: 82px;
+    }
+
+    .CAR3{
+        width: 200px;
+        height: 462.53px;
+    }
+
+    .features-inf{
+        height: 92px;
+        width: 127px;
+    }
+}

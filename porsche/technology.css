@@ -1,0 +1,78 @@
+
+.technology{
+    padding-top: 56px;
+    padding-bottom: 32px;
+}
+
+
+
+.technology-img{
+    background-image: url("./images/CAR2.png");
+    width: 312px;
+    height: 208px;
+    background-size: cover;
+    position: relative;
+}
+
+.technology-img-box{
+    width: 181px;
+    height: 95px;
+    backdrop-filter: blur(6px);
+    background-color: #FFFFFF1A;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    top: 160px;
+    padding-top: 16px;
+
+}
+
+.technology-content{
+    max-width: 401px;
+    min-width: 312px;
+    margin-top: 95px;
+}
+
+.technology-btn{
+    width: 144px;
+    height: 53px;
+    margin-top: 32px;
+    
+}
+
+
+@media (min-width:545px){
+
+    .technology{
+        padding-top: 72px;
+    }
+
+    .technology-img{
+        width: 480px;
+        height: 320px;
+    }
+
+    .technology-img-box{
+    width: 197px;
+    height: 104px;
+    top: 268px;
+}
+
+    .technology-btn{
+        width: 149px;
+        height: 50px;
+        margin-top: 48px;
+    }
+
+}
+
+@media (min-width:1032px){
+          .technology{
+        padding-bottom: 140px;
+    }
+    
+    .technology-content{
+        margin-top: 47px;
+    }
+}
+

@@ -1,0 +1,33 @@
+.brands{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.brands-box{
+    width: 40px;
+    height: 45.63px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.brands-porsche{
+    background-image: url("./images/porsche.png");
+}
+
+.brands-r{
+    background-image: url("./images/rings.png");
+
+}
+
+@media(min-width:500px){
+    .brands{
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+    
+    .brands-box{
+        width: 50px;
+        height: 57px;
+    }
+}

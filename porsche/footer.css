@@ -1,0 +1,93 @@
+footer{
+    padding-top: 56px;
+    padding-bottom: 36px;
+    overflow: hidden;
+}
+
+
+.footer-logo{
+    background-image: url("./images/Logo.png");
+    width: 86px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-logo-box{
+    max-width: 198px;
+}
+
+.footer-logo-facebook{
+    background-image: url("./images/facebook.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 9px;
+    height: 17px;
+}
+
+.footer-logo-insta{
+    background-image: url("./images/ri_instagram-line.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 17px;
+}
+
+.footer-logo-twitter{
+    background-image: url("./images/twitter\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 21px;
+    height: 17px;
+}
+
+
+.footer-cloud1{
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    left: -176px;
+    border-radius: 50%;
+}
+
+.footer-cloud2{
+    width: 300px;
+    height: 300px;
+    right: -280px;
+    bottom: 100px;
+}
+
+
+@media(min-width:500px){
+    footer{
+        padding-top: 72px;
+    }
+    
+    
+    .footer-logo{
+        width: 110px;
+        height: 34px;
+    }
+
+    .footer-logo-facebook{
+        width: 10px;
+        height: 20px;
+    }
+
+    .footer-logo-insta{
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-cloud1{
+        height: 500px;
+        width: 500px;
+    }
+
+    .footer-cloud2{
+        width: 400px;
+        height: 400px;
+        bottom: -170px;
+    }
+}
